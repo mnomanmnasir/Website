@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+.navbar{
+
+    background-color: red !important;
+}
+
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.fa-cart-plus, .fa-user-circle-o
+{
+ 
+    font-size: 32px !important;
+
+}
+
+
+.fa-truck, .fa-headphones, .fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+}
+
+
+.card1, .card2, .card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card{
+    margin-top: 30px;
+    /* width: 50%; */
+    /* margin-left: auto; */
+    /* margin-left: 10px; */
+    /* height: auto !important; */
+    /* color: red; */
+}
+
+.btn-primary{
+    background-color: red;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ 
+@media screen and (min-width: 576px)
+{
+
+    .card{
+        
+         /* width: 200px; */
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: 30px !important;
+
+        
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+
+    .card{
+        /* width: 200px; */
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: 30px !important;
+    }
+}
+
+
+
+.heading{
+    margin: 30px;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* font-weight: bold; */
+    color: red;
+    text-shadow: 3px 5px 5px black;
+}
+
+.heading1{
+    margin: 50px;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* font-weight: bold; */
+    color: red;
+    text-shadow: 3px 5px 5px black;
+}
+
+
+.abc{
+
+    /* margin-left: 100% !important; */
+    /* width: 40% !important; */
+    padding: 20px !important;
+    margin: 40px !important;
+    /* text-align: center; */
+    border: 3px solid gray;
+    background-color: bisque;
+    /* align-items: center !important; */
+}
+
+
+
+
+.container1{
+    margin: 40px !important;
+    /* margin-left: 50px !important; */
+    /* align-items: center; */
+    /* width: %; */
+    /* text-align: center; */
+    /* display: inline-flex; */
+}
+
+
+
+
+
+@media screen and (min-width: 800px)
+{
+
+    img{
+        width: 100%;
+        /* display: flex; */
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+
+    img{
+        width: 100%;
+        /* display: flex; */
+        
+    }
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: grey;
+    padding: 70px 0;
+}
+
+.footer-col{
+
+        width: 25% ;
+        padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom:  35px ;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.footer-col h4::before{
+    content: '' ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+
+.footer-col .social-link a:hover{
+
+        color: #24262b;
+        background-color: #ffffff;
+}
+
+@media (max-width:767px){
+
+    .footer-col{
+        width: 50%;
+        margin-bottom:30px;
+    }
+}
+
+
+
+
+ @media (max-width: 574px)
+ {
+     .footer-col{ 
+                 width: 100%; 
+               /* margin-bottom:30px; */
+    } 
+}
